@@ -1,3 +1,4 @@
+#count of numbers
 class solution:
     def p(self,n):
         count=0
@@ -7,4 +8,7 @@ class solution:
         print(count)
 sol=solution()
 n=int(input())
+
 sol.p(n)
+
+
