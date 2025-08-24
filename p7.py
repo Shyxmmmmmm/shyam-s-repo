@@ -1,3 +1,8 @@
+1
+23
+456
+
+
 class Solution:
     def p(self,n):
         num=1
@@ -37,4 +42,5 @@ class Solution:
     
 sol=Solution()
 sol.p(5)
+
             
