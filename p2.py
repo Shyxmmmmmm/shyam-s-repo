@@ -1,3 +1,7 @@
+3 2 1
+3 2
+3
+
 class Solution:
     def p(self,N):
         for i in range(1,N+1):
@@ -9,4 +13,5 @@ class Solution:
 
 sol=Solution()
 N=int(input("Input:"))
+
 sol.p(N)
