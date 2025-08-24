@@ -1,4 +1,7 @@
 #count of numbers
+n=12345
+count=5
+
 class solution:
     def p(self,n):
         count=0
@@ -10,5 +13,6 @@ sol=solution()
 n=int(input())
 
 sol.p(n)
+
 
 
