@@ -1,3 +1,7 @@
+n=12345
+p=[5,4,3,2,1]
+
+
 class Solution:
     def p(self,n):
         p=[]
@@ -29,4 +33,5 @@ class Solution:
 sol=Solution()
 
 sol.p()
+
           
