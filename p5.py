@@ -1,3 +1,10 @@
+*********
+ *******
+  *****
+   ***
+    *
+
+
 class Solution:
     def p(self,n):
         for i in range(1,n+1):
@@ -8,4 +15,5 @@ class Solution:
                 print("*",end="")
             print()
 sol=Solution()
+
 sol.p(5)
