@@ -1,5 +1,21 @@
 prime or not prime
 
+import math
+
+class Solution:
+    def isPrime(self, n):
+        if n<=1:
+            return False
+        
+        for i in range(2,int(math.sqrt(n)+1)):
+            if n%i==0:
+                return False
+        return True
+
+
+
+
+
 def p():
     n=10
     flag=1
