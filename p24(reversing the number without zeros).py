@@ -12,7 +12,7 @@ class Solution:
 	        n=n//10
 	        q.append(p)
 	        
-	    s=''
+	    s=''   ## ithula naa first [] thaan use panni pathan ana list use panna loop kullla thaan print statement vanganum so it is not convinent one athana s='' string ahh vangitu atha print pannama retrun pannikalam 
 	    for i in q:
 	        if i!=0:
 	            s=s+str(i)
