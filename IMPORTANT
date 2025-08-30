@@ -9,3 +9,6 @@ sum of the series
 
 sum of square of the series:
 1^2+2^2+3^2----> n*(n+1)*(2n+1)//6
+
+sum of cube of series is:
+(n(n+1)//2)^2
