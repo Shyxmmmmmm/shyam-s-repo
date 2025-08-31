@@ -9,3 +9,12 @@ class Solution:
 sol=Solution()
 a,b=map(int,input().split())
 sol.p(a,b)
+
+for GCD:
+
+
+class Solution:
+    def gcd(self, a, b):
+        while b!=0:
+            a,b=b,a%b
+        return a
