@@ -7,7 +7,7 @@ sum of the series
 1+(1+2)+(1+2+3) -------> n(n+1)(n+2)//6
 
 
-sum of square of the series:
+sum of square of the series and sum of aodd number boh are same only:
 1^2+2^2+3^2----> n*(n+1)*(2n+1)//6
 
 sum of cube of series is:
