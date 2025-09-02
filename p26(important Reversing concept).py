@@ -20,4 +20,4 @@ def p():
         n=n//10
     print(s)
 p()
-## learn this method ok because it is efficient that above one 
+## learn this method ok because it is efficient than above one 
