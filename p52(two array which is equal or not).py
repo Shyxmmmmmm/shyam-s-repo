@@ -12,3 +12,19 @@ class Solution:
             return True
         else:
             return False
+
+**effetive one
+
+from collections import Counter
+
+
+class Solution:
+    def checkEqual(self, a, b) -> bool:
+        if Counter(a) == Counter(b):
+            return True
+        else:
+            return False
+sol=Solution()        
+a=[1,2,3,4,5]
+b=[2,3,4,5]
+print(sol.checkEqual(a, b))
