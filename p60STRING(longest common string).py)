@@ -1,0 +1,33 @@
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+
+
+
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        if len(strs)==0:
+            return ""
+        elif len(strs)==1:
+            return strs[0]
+        b=sorted(strs)
+        n=len(b)
+        first=b[0]
+        last=b[n-1]
+        z=min(first,last)
+        index=0
+        for i in range(0,len(z)):
+            if first[i]==last[i]:
+                index=i
+            else:
+                break
+        
+        if index==0:
+            return ""
+        else:
+            return first[:index+1]
+
+        
