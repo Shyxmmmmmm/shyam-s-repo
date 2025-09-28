@@ -1,0 +1,24 @@
+Input: s1 = "geeks" s2 = "kseeg"
+Output: true 
+Explanation: Both the string have same characters with same frequency. So, they are anagrams.
+
+
+
+class Solution:
+    def areAnagrams(self, s1, s2):
+        arr=[0]*258
+        
+        i=0
+        while i<len(s1):
+            arr[ord(s1[i])]=arr[ord(s1[i])]+1
+            i=i+1
+        
+        i=0
+        while i<len(s2):
+            arr[ord(s2[i])]=arr[ord(s2[i])]-1
+            i=i+1
+        
+        for i in range(len(arr)):
+            if arr[i]!=0:
+                return False
+        return True
