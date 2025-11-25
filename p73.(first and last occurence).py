@@ -33,3 +33,57 @@ class Solution:
                 else:
                     last=i
         return [first,last]
+
+
+
+optimized-> USING BINARY SEARCH
+
+
+
+#User function Template for python3
+
+
+class Solution:
+    def find(self, arr, x):
+        first=self.First(arr,x)
+        last=self.Last(arr,x)
+        
+        return [first,last]
+    
+    def First(self,arr,x):
+        low=0
+        high=len(arr)-1
+        
+        res=-1
+        while (low<=high):
+            mid=(low+high)//2
+            
+            if arr[mid]==x:
+                res=mid
+                high=mid-1
+            elif arr[mid]>x:
+                high=mid-1
+            else:
+                low=mid+1
+        
+        return res
+            
+    def Last(self,arr,x):
+        low=0
+        high=len(arr)-1
+        
+        res=-1
+        
+        while(low<=high):
+            
+            mid=(low+high)//2
+            
+            if arr[mid]==x:
+                res=mid
+                low=mid+1
+            elif arr[mid]<x:
+                low=mid+1
+            else:
+                high=mid-1
+        return res
+        
